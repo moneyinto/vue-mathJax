@@ -2268,5 +2268,250 @@ export const customFormula: IPresetFormula[] = [
                 text: "\\ker\\phi "
             }
         ]
+    },
+
+    {
+        title: "三角函数",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_1_sin.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sin "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_2_cos.svg",
+                    import.meta.url
+                ).href,
+                text: "\\cos "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_3_tan.svg",
+                    import.meta.url
+                ).href,
+                text: "\\tan "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_4_cot.svg",
+                    import.meta.url
+                ).href,
+                text: "\\cot "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_5_sec.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sec "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_6_csc.svg",
+                    import.meta.url
+                ).href,
+                text: "\\csc "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_7_insin.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sin^{-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_8_incos.svg",
+                    import.meta.url
+                ).href,
+                text: "\\cos^{-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_9_intan.svg",
+                    import.meta.url
+                ).href,
+                text: "\\tan^{-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_10_incot.svg",
+                    import.meta.url
+                ).href,
+                text: "\\cot^{-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_11_insec.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sec^{-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_12_incsc.svg",
+                    import.meta.url
+                ).href,
+                text: "\\csc^{-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_13_arcsin.svg",
+                    import.meta.url
+                ).href,
+                text: "\\arcsin "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_14_arccos.svg",
+                    import.meta.url
+                ).href,
+                text: "\\arccos "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_15_arctan.svg",
+                    import.meta.url
+                ).href,
+                text: "\\arctan "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_16_arccot.svg",
+                    import.meta.url
+                ).href,
+                text: "\\operatorname{arccot}  "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_17_arcsec.svg",
+                    import.meta.url
+                ).href,
+                text: "\\operatorname{arcsec} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_18_arccsc.svg",
+                    import.meta.url
+                ).href,
+                text: "\\operatorname{arccos} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_19_sinh.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sinh "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_20_cosh.svg",
+                    import.meta.url
+                ).href,
+                text: "\\cosh "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_21_tanh.svg",
+                    import.meta.url
+                ).href,
+                text: "\\tanh "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_22_coth.svg",
+                    import.meta.url
+                ).href,
+                text: "\\coth "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_23_sech.svg",
+                    import.meta.url
+                ).href,
+                text: "\\operatorname{sech} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_24_csch.svg",
+                    import.meta.url
+                ).href,
+                text: "\\operatorname{csch}"
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_25_insinh.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sinh^{-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_26_incosh.svg",
+                    import.meta.url
+                ).href,
+                text: "\\cosh^{-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_27_intanh.svg",
+                    import.meta.url
+                ).href,
+                text: "\\tanh^{-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_28_incoth.svg",
+                    import.meta.url
+                ).href,
+                text: "\\coth^{-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_29_insech.svg",
+                    import.meta.url
+                ).href,
+                text: "\\operatorname{sech}^{-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/trig/trig_30_incsch.svg",
+                    import.meta.url
+                ).href,
+                text: "\\operatorname{csch}^{-1} "
+            }
+        ]
     }
 ];

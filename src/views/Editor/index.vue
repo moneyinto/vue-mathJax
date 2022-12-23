@@ -123,7 +123,8 @@ const onInsetFormula = (formula: string) => {
     border: 1px solid #eee;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: 0 20px;
+    overflow-x: auto;
 }
 
 .latex-editor-panel {

@@ -1,5 +1,5 @@
 <template>
-    <div class="editor-container">
+    <div class="mathjax-container">
         <div ref="mathjaxRef"></div>
     </div>
 </template>
@@ -34,3 +34,9 @@ watch(() => props.latex, () => {
     renderMathJax();
 });
 </script>
+
+<style lang="scss" scoped>
+.mathjax-container {
+    margin: 0 auto;
+}
+</style>
