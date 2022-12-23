@@ -1673,5 +1673,166 @@ export const customFormula: IPresetFormula[] = [
                 text: "\\mathrm{def} "
             }
         ]
+    },
+
+    {
+        title: "分数微分",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_1_frac_frac.svg",
+                    import.meta.url
+                ).href,
+                text: "\\frac{}{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_2_frac_tfrac.svg",
+                    import.meta.url
+                ).href,
+                text: "\\tfrac{}{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_3_frac_dif.svg",
+                    import.meta.url
+                ).href,
+                text: "\\mathrm{d}t "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_4_frac_difa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\frac{\\mathrm{d} y}{\\mathrm{d} x} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_5_frac_partial.svg",
+                    import.meta.url
+                ).href,
+                text: "\\partial t "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_6_frac_partiala.svg",
+                    import.meta.url
+                ).href,
+                text: "\\frac{\\partial y}{\\partial x} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_7_frac_nabla.svg",
+                    import.meta.url
+                ).href,
+                text: "\\nabla\\psi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_8_frac_partialb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\frac{\\partial^2}{\\partial x_1\\partial x_2}y "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_9_frac_cfrac.svg",
+                    import.meta.url
+                ).href,
+                text: "\\cfrac{1}{a + \\cfrac{7}{b + \\cfrac{2}{9}}} =c "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_10_frac_cfraca.svg",
+                    import.meta.url
+                ).href,
+                text: `\\begin{equation}
+                x = a_0 + \\cfrac{1}{a_1 
+                        + \\cfrac{1}{a_2 
+                        + \\cfrac{1}{a_3 + \\cfrac{1}{a_4} } } }
+                \\end{equation}`
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_11_der_dot.svg",
+                    import.meta.url
+                ).href,
+                text: "\\dot{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_12_der_ddot.svg",
+                    import.meta.url
+                ).href,
+                text: "\\ddot{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_13_der_prime.svg",
+                    import.meta.url
+                ).href,
+                text: "{}' "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_14_der_primea.svg",
+                    import.meta.url
+                ).href,
+                text: "{}'' "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_15_der_primen.svg",
+                    import.meta.url
+                ).href,
+                text: "{}^{(n)} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_16_mod_bmod.svg",
+                    import.meta.url
+                ).href,
+                text: "a \\bmod b "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_17_mod_pmod.svg",
+                    import.meta.url
+                ).href,
+                text: "a \\equiv b \\pmod{m} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_18_mod_gcd.svg",
+                    import.meta.url
+                ).href,
+                text: "\\gcd(m, n) "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/frac/frac_19_mod_lcm.svg",
+                    import.meta.url
+                ).href,
+                text: "\\operatorname{lcm}(m, n) "
+            }
+        ]
     }
 ];
