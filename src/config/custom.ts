@@ -1,0 +1,1152 @@
+import { IPresetFormula } from "@/types";
+
+export const customFormula: IPresetFormula[] = [
+    {
+        title: "常用符号",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_1_binary_plus.svg",
+                    import.meta.url
+                ).href,
+                text: "+ "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_2_binary_minus.svg",
+                    import.meta.url
+                ).href,
+                text: "- "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_3_binary_times.svg",
+                    import.meta.url
+                ).href,
+                text: "\\times "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_4_binary_div.svg",
+                    import.meta.url
+                ).href,
+                text: "{\\div} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_5_binary_pm.svg",
+                    import.meta.url
+                ).href,
+                text: "\\pm "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_6_binary_mp.svg",
+                    import.meta.url
+                ).href,
+                text: "\\mp "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_7_binary_triangleleft.svg",
+                    import.meta.url
+                ).href,
+                text: "\\triangleleft "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_8_binary_triangleright.svg",
+                    import.meta.url
+                ).href,
+                text: "\\triangleright "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_9_binary_cdot.svg",
+                    import.meta.url
+                ).href,
+                text: "\\cdot "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_10_binary_setminus.svg",
+                    import.meta.url
+                ).href,
+                text: "\\setminus "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_11_binary_star.svg",
+                    import.meta.url
+                ).href,
+                text: "\\star "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_12_binary_ast.svg",
+                    import.meta.url
+                ).href,
+                text: "\\ast "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_13_binary_cup.svg",
+                    import.meta.url
+                ).href,
+                text: "\\cup "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_14_binary_cap.svg",
+                    import.meta.url
+                ).href,
+                text: "\\cap "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_15_binary_sqcup.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sqcup "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_16_binary_sqcap.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sqcap "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_17_binary_vee.svg",
+                    import.meta.url
+                ).href,
+                text: "\\vee "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_18_binary_wedge.svg",
+                    import.meta.url
+                ).href,
+                text: "\\wedge "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_19_binary_circ.svg",
+                    import.meta.url
+                ).href,
+                text: "\\circ "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_20_binary_bullet.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bullet "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_21_binary_oplus.svg",
+                    import.meta.url
+                ).href,
+                text: "\\oplus "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_22_binary_ominus.svg",
+                    import.meta.url
+                ).href,
+                text: "\\ominus "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_23_binary_odot.svg",
+                    import.meta.url
+                ).href,
+                text: "\\odot "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_24_binary_oslash.svg",
+                    import.meta.url
+                ).href,
+                text: "\\oslash "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_25_binary_otimes.svg",
+                    import.meta.url
+                ).href,
+                text: "\\otimes "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_26_binary_bigcirc.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bigcirc "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_27_binary_diamonda.svg",
+                    import.meta.url
+                ).href,
+                text: "\\diamond "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_28_binary_uplus.svg",
+                    import.meta.url
+                ).href,
+                text: "\\uplus "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_29_binary_bigtriangleup.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bigtriangleup "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_30_binary_bigtriangledown.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bigtriangledown "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_31_binary_lhd.svg",
+                    import.meta.url
+                ).href,
+                text: "\\lhd "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_32_binary_rhd.svg",
+                    import.meta.url
+                ).href,
+                text: "\\rhd "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_33_binary_unlhd.svg",
+                    import.meta.url
+                ).href,
+                text: "\\unlhd "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_34_binary_unrhd.svg",
+                    import.meta.url
+                ).href,
+                text: "\\unrhd "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_35_binary_amalg.svg",
+                    import.meta.url
+                ).href,
+                text: "\\amalg "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_36_binary_wr.svg",
+                    import.meta.url
+                ).href,
+                text: "\\wr "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_37_binary_dagger.svg",
+                    import.meta.url
+                ).href,
+                text: "\\dagger "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_38_binary_ddagger.svg",
+                    import.meta.url
+                ).href,
+                text: "\\ddagger "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_39_relation_less.svg",
+                    import.meta.url
+                ).href,
+                text: "< "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_40_relation_more.svg",
+                    import.meta.url
+                ).href,
+                text: "> "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_41_relation_equal.svg",
+                    import.meta.url
+                ).href,
+                text: "= "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_42_relation_le.svg",
+                    import.meta.url
+                ).href,
+                text: "\\le "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_43_relation_ge.svg",
+                    import.meta.url
+                ).href,
+                text: "\\ge "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_44_relation_equiv.svg",
+                    import.meta.url
+                ).href,
+                text: "\\equiv "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_45_relation_ll.svg",
+                    import.meta.url
+                ).href,
+                text: "\\ll "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_46_relation_gg.svg",
+                    import.meta.url
+                ).href,
+                text: "\\gg "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_47_relation_doteq.svg",
+                    import.meta.url
+                ).href,
+                text: "\\doteq "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_48_relation_prec.svg",
+                    import.meta.url
+                ).href,
+                text: "\\prec "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_49_relation_succ.svg",
+                    import.meta.url
+                ).href,
+                text: "\\succ "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_50_relation_sim.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sim "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_51_relation_preceq.svg",
+                    import.meta.url
+                ).href,
+                text: "\\preceq "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_52_relation_succeq.svg",
+                    import.meta.url
+                ).href,
+                text: "\\succeq "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_53_relation_simeq.svg",
+                    import.meta.url
+                ).href,
+                text: "\\simeq "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_54_relation_approx.svg",
+                    import.meta.url
+                ).href,
+                text: "\\approx "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_55_relation_subset.svg",
+                    import.meta.url
+                ).href,
+                text: "\\subset "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_56_relation_supset.svg",
+                    import.meta.url
+                ).href,
+                text: "\\supset "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_57_relation_subseteq.svg",
+                    import.meta.url
+                ).href,
+                text: "\\subseteq "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_58_relation_supseteq.svg",
+                    import.meta.url
+                ).href,
+                text: "\\supseteq "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_59_relation_sqsubset.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sqsubset "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_60_relation_sqsupset.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sqsupset "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_61_relation_sqsubseteq.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sqsubseteq "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_62_relation_sqsupseteq.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sqsupseteq "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_63_relation_cong.svg",
+                    import.meta.url
+                ).href,
+                text: "\\cong "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_64_relation_Join.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Join "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_65_relation_bowtie.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bowtie "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_66_relation_propto.svg",
+                    import.meta.url
+                ).href,
+                text: "\\propto "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_67_relation_in.svg",
+                    import.meta.url
+                ).href,
+                text: "\\in "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_68_relation_ni.svg",
+                    import.meta.url
+                ).href,
+                text: "\\ni "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_69_relation_vdash.svg",
+                    import.meta.url
+                ).href,
+                text: "\\vdash "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_70_relation_dashv.svg",
+                    import.meta.url
+                ).href,
+                text: "\\dashv "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_71_relation_models.svg",
+                    import.meta.url
+                ).href,
+                text: "\\models "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_72_relation_mid.svg",
+                    import.meta.url
+                ).href,
+                text: "\\mid "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_73_relation_parallel.svg",
+                    import.meta.url
+                ).href,
+                text: "\\parallel "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_74_relation_perp.svg",
+                    import.meta.url
+                ).href,
+                text: "\\perp "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_75_relation_smile.svg",
+                    import.meta.url
+                ).href,
+                text: "\\smile "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_76_relation_frown.svg",
+                    import.meta.url
+                ).href,
+                text: "\\frown "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_77_relation_asymp.svg",
+                    import.meta.url
+                ).href,
+                text: "\\asymp "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_78_relation_slash.svg",
+                    import.meta.url
+                ).href,
+                text: ": "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_79_relation_notin.svg",
+                    import.meta.url
+                ).href,
+                text: "\\notin "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_80_relation_ne.svg",
+                    import.meta.url
+                ).href,
+                text: "\\ne "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_81_arrow_gets.svg",
+                    import.meta.url
+                ).href,
+                text: "\\gets "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_82_arrow_to.svg",
+                    import.meta.url
+                ).href,
+                text: "\\to "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_83_arrow_longleftarrowa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\longleftarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_84_arrow_longrightarrowa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\longrightarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_85_arrow_uparrowa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\uparrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_86_arrow_downarrowa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\downarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_87_arrow_updownarrowa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\updownarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_88_arrow_leftrightarrowa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\leftrightarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_89_arrow_Uparrowb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Uparrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_90_arrow_Downarrowb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Downarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_91_arrow_Updownarrowb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Updownarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_92_arrow_longleftrightarrowa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\longleftrightarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_93_arrow_Leftarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Leftarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_94_arrow_Longleftarrowb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Longleftarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_95_arrow_Rightarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Rightarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_96_arrow_Longrightarrowb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Longrightarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_97_arrow_Leftrightarrowb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Leftrightarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_98_arrow_Longleftrightarrowb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Longleftrightarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_99_arrow_mapsto.svg",
+                    import.meta.url
+                ).href,
+                text: "\\mapsto "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_100_arrow_longmapsto.svg",
+                    import.meta.url
+                ).href,
+                text: "\\longmapsto "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_101_arrow_nearrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\nearrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_102_arrow_searrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\searrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_103_arrow_swarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\swarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_104_arrow_nwarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\nwarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_105_arrow_hookleftarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\hookleftarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_106_arrow_hookrightarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\hookrightarrow "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_107_arrow_rightleftharpoons.svg",
+                    import.meta.url
+                ).href,
+                text: "\\rightleftharpoons "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_108_arrow_iff.svg",
+                    import.meta.url
+                ).href,
+                text: "\\iff "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_109_arrow_leftharpoonup.svg",
+                    import.meta.url
+                ).href,
+                text: "\\leftharpoonup "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_110_arrow_rightharpoonup.svg",
+                    import.meta.url
+                ).href,
+                text: "\\rightharpoonup "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_111_arrow_leftharpoondown.svg",
+                    import.meta.url
+                ).href,
+                text: "\\leftharpoondown "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_112_arrow_rightharpoondown.svg",
+                    import.meta.url
+                ).href,
+                text: "\\rightharpoondown "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_113_other_because.svg",
+                    import.meta.url
+                ).href,
+                text: "\\because "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_114_other_therefore.svg",
+                    import.meta.url
+                ).href,
+                text: "\\therefore "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_115_other_dots.svg",
+                    import.meta.url
+                ).href,
+                text: "\\dots "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_116_other_cdots.svg",
+                    import.meta.url
+                ).href,
+                text: "\\cdots "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_117_other_vdots.svg",
+                    import.meta.url
+                ).href,
+                text: "\\vdots "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_118_other_ddots.svg",
+                    import.meta.url
+                ).href,
+                text: "\\ddots "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_119_other_forall.svg",
+                    import.meta.url
+                ).href,
+                text: "\\forall "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_120_other_exists.svg",
+                    import.meta.url
+                ).href,
+                text: "\\exists "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_121_other_nexists.svg",
+                    import.meta.url
+                ).href,
+                text: "\\nexists "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_122_other_Finv.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Finv "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_123_other_neg.svg",
+                    import.meta.url
+                ).href,
+                text: "\\neg "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_124_other_prime.svg",
+                    import.meta.url
+                ).href,
+                text: "\\prime "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_125_other_emptyset.svg",
+                    import.meta.url
+                ).href,
+                text: "\\emptyset "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_126_other_infty.svg",
+                    import.meta.url
+                ).href,
+                text: "\\infty "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_127_other_nabla.svg",
+                    import.meta.url
+                ).href,
+                text: "\\nabla "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_128_other_triangle.svg",
+                    import.meta.url
+                ).href,
+                text: "\\triangle "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_129_other_Box.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Box "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_130_other_Diamondb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Diamond "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_131_other_bot.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bot "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_132_other_top.svg",
+                    import.meta.url
+                ).href,
+                text: "\\top "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_133_other_angle.svg",
+                    import.meta.url
+                ).href,
+                text: "\\angle "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_134_other_measuredangle.svg",
+                    import.meta.url
+                ).href,
+                text: "\\measuredangle "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_135_other_sphericalangle.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sphericalangle "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_136_other_surd.svg",
+                    import.meta.url
+                ).href,
+                text: "\\surd "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_137_other_diamondsuit.svg",
+                    import.meta.url
+                ).href,
+                text: "\\diamondsuit "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_138_other_heartsuit.svg",
+                    import.meta.url
+                ).href,
+                text: "\\heartsuit "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_139_other_clubsuit.svg",
+                    import.meta.url
+                ).href,
+                text: "\\clubsuit "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_140_other_spadesuit.svg",
+                    import.meta.url
+                ).href,
+                text: "\\spadesuit "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_141_other_flat.svg",
+                    import.meta.url
+                ).href,
+                text: "\\flat "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_142_other_natural.svg",
+                    import.meta.url
+                ).href,
+                text: "\\natural "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/symbol/symbol_143_other_sharp.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sharp "
+            }
+        ]
+    }
+];
