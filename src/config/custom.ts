@@ -1148,5 +1148,530 @@ export const customFormula: IPresetFormula[] = [
                 text: "\\sharp "
             }
         ]
+    },
+
+    {
+        title: "希腊字母",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_1_lower_alpha.svg",
+                    import.meta.url
+                ).href,
+                text: "\\alpha "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_2_lower_beta.svg",
+                    import.meta.url
+                ).href,
+                text: "\\beta "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_3_lower_gammaa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\gamma "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_4_lower_deltaa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\delta "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_5_lower_epsilon.svg",
+                    import.meta.url
+                ).href,
+                text: "\\epsilon "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_6_lower_varepsilon.svg",
+                    import.meta.url
+                ).href,
+                text: "\\varepsilon "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_7_lower_zeta.svg",
+                    import.meta.url
+                ).href,
+                text: "\\zeta "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_8_lower_eta.svg",
+                    import.meta.url
+                ).href,
+                text: "\\eta "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_9_lower_thetaa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\theta "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_10_lower_vartheta.svg",
+                    import.meta.url
+                ).href,
+                text: "\\vartheta "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_11_lower_iota.svg",
+                    import.meta.url
+                ).href,
+                text: "\\iota "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_12_lower_kappa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\kappa "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_13_lower_lambdaa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\lambda "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_14_lower_mu.svg",
+                    import.meta.url
+                ).href,
+                text: "\\mu "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_15_lower_nu.svg",
+                    import.meta.url
+                ).href,
+                text: "\\nu "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_16_lower_xia.svg",
+                    import.meta.url
+                ).href,
+                text: "\\xi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_17_lower_o.svg",
+                    import.meta.url
+                ).href,
+                text: "o "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_18_lower_pia.svg",
+                    import.meta.url
+                ).href,
+                text: "\\pi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_19_lower_varpi.svg",
+                    import.meta.url
+                ).href,
+                text: "\\varpi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_20_lower_rho.svg",
+                    import.meta.url
+                ).href,
+                text: "\\rho "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_21_lower_varrho.svg",
+                    import.meta.url
+                ).href,
+                text: "\\varrho "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_22_lower_sigmaa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sigma "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_23_lower_varsigma.svg",
+                    import.meta.url
+                ).href,
+                text: "\\varsigma "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_24_lower_tau.svg",
+                    import.meta.url
+                ).href,
+                text: "\\tau "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_25_lower_upsilona.svg",
+                    import.meta.url
+                ).href,
+                text: "\\upsilon "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_26_lower_phia.svg",
+                    import.meta.url
+                ).href,
+                text: "\\phi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_27_lower_varphi.svg",
+                    import.meta.url
+                ).href,
+                text: "\\varphi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_28_lower_chi.svg",
+                    import.meta.url
+                ).href,
+                text: "\\chi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_29_lower_psia.svg",
+                    import.meta.url
+                ).href,
+                text: "\\psi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_30_lower_omegaa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\omega "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_31_upper_Gammab.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Gamma "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_32_upper_Deltab.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Delta "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_33_upper_Thetab.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Theta "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_34_upper_Lambdab.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Lambda "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_35_upper_Xib.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Xi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_36_upper_Pib.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Pi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_37_upper_Sigmab.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Sigma "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_38_upper_Upsilonb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Upsilon "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_39_upper_Phib.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Phi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_40_upper_Psib.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Psi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_41_upper_Omegab.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Omega "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_42_other_hbar.svg",
+                    import.meta.url
+                ).href,
+                text: "\\hbar "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_43_other_imath.svg",
+                    import.meta.url
+                ).href,
+                text: "\\imath "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_44_other_jmath.svg",
+                    import.meta.url
+                ).href,
+                text: "\\jmath "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_45_other_ell.svg",
+                    import.meta.url
+                ).href,
+                text: "\\ell "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_46_other_Re.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Re "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_47_other_Im.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Im "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_48_other_aleph.svg",
+                    import.meta.url
+                ).href,
+                text: "\\aleph "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_49_other_beth.svg",
+                    import.meta.url
+                ).href,
+                text: "\\beth "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_50_other_gimel.svg",
+                    import.meta.url
+                ).href,
+                text: "\\gimel "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_51_other_daleth.svg",
+                    import.meta.url
+                ).href,
+                text: "\\daleth "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_52_other_wp.svg",
+                    import.meta.url
+                ).href,
+                text: "\\wp "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_53_other_mho.svg",
+                    import.meta.url
+                ).href,
+                text: "\\mho "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_54_other_backepsilon.svg",
+                    import.meta.url
+                ).href,
+                text: "\\backepsilon "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_55_other_partial.svg",
+                    import.meta.url
+                ).href,
+                text: "\\partial "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_56_other_eth.svg",
+                    import.meta.url
+                ).href,
+                text: "\\eth "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_57_other_Bbbk.svg",
+                    import.meta.url
+                ).href,
+                text: "\\Bbbk "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_58_other_complement.svg",
+                    import.meta.url
+                ).href,
+                text: "\\complement "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_59_other_circleds.svg",
+                    import.meta.url
+                ).href,
+                text: "\\circledS "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_60_other_S.svg",
+                    import.meta.url
+                ).href,
+                text: "\\S "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_61_other_mathbbABC.svg",
+                    import.meta.url
+                ).href,
+                text: "\\mathbb{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_62_other_mathfrakABC.svg",
+                    import.meta.url
+                ).href,
+                text: "\\mathfrak{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_63_other_mathcalABC.svg",
+                    import.meta.url
+                ).href,
+                text: "\\mathcal{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_64_other_mathrmABC.svg",
+                    import.meta.url
+                ).href,
+                text: "\\mathrm{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/greek/greek_65_other_mathrmdef.svg",
+                    import.meta.url
+                ).href,
+                text: "\\mathrm{def} "
+            }
+        ]
     }
 ];
