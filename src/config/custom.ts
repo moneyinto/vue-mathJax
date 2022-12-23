@@ -2111,5 +2111,162 @@ export const customFormula: IPresetFormula[] = [
                 text: "\\xrightarrow[]{} "
             }
         ]
+    },
+
+    {
+        title: "极限对数",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_1_lim_lim.svg",
+                    import.meta.url
+                ).href,
+                text: "\\lim "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_2_lim_limto0.svg",
+                    import.meta.url
+                ).href,
+                text: "\\lim_{x \\to 0} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_3_lim_limtoinfty.svg",
+                    import.meta.url
+                ).href,
+                text: "\\lim_{x \to \\infty} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_4_lim_limtf.svg",
+                    import.meta.url
+                ).href,
+                text: "\\textstyle \\lim_{x \\to 0} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_5_lim_max.svg",
+                    import.meta.url
+                ).href,
+                text: "\\max_{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_6_lim_min.svg",
+                    import.meta.url
+                ).href,
+                text: "\\min_{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_7_log_log.svg",
+                    import.meta.url
+                ).href,
+                text: "\\log_{}{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_8_log_lg.svg",
+                    import.meta.url
+                ).href,
+                text: "\\lg_{}{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_9_log_ln.svg",
+                    import.meta.url
+                ).href,
+                text: "\\ln_{}{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_10_log_exp.svg",
+                    import.meta.url
+                ).href,
+                text: "\\exp "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_11_bound_min.svg",
+                    import.meta.url
+                ).href,
+                text: "\\min x "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_12_bound_max.svg",
+                    import.meta.url
+                ).href,
+                text: "\\max y "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_13_bound_sup.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sup t "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_14_bound_inf.svg",
+                    import.meta.url
+                ).href,
+                text: "\\inf s "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_15_bound_lim.svg",
+                    import.meta.url
+                ).href,
+                text: "\\lim u "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_16_bound_limsup.svg",
+                    import.meta.url
+                ).href,
+                text: "\\limsup w "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_17_bound_liminf.svg",
+                    import.meta.url
+                ).href,
+                text: "\\liminf v "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_18_bound_dim.svg",
+                    import.meta.url
+                ).href,
+                text: "\\dim p "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/limit/limit_19_bound_ker.svg",
+                    import.meta.url
+                ).href,
+                text: "\\ker\\phi "
+            }
+        ]
     }
 ];
