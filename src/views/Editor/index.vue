@@ -62,7 +62,7 @@ import { ref, computed } from "vue";
 const tab = ref("style");
 const latex = ref("");
 const color = ref("#444444");
-const fontSize = ref("normalsize");
+const fontSize = ref("Large");
 const fontStyle = ref("mathrm");
 const textareaRef = ref<HTMLTextAreaElement>();
 
@@ -81,13 +81,6 @@ const onInsetFormula = (formula: string) => {
     // textareaRef.value?.setSelectionRange(1, 3);
     textareaRef.value?.focus();
 };
-// initMathJax({}, () => {
-//     console.log(window.MathJax, mathjaxRef.value);
-//     window.MathJax.tex2svgPromise(`\\mathbb{{\\color{Brown}\\left(x-1\\right)\\left(x+3\\right)}}`, { display: true }).then((math: Element) => {
-//         console.log(math);
-//         mathjaxRef.value.appendChild(math);
-//     });
-// });
 </script>
 
 <style lang="scss" scoped>

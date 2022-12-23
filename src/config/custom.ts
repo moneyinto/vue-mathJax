@@ -1834,5 +1834,282 @@ export const customFormula: IPresetFormula[] = [
                 text: "\\operatorname{lcm}(m, n) "
             }
         ]
+    },
+
+    {
+        title: "根式角标",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_1_sqrt_sqrt.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sqrt{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_2_sqrt_sqrtn.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sqrt[]{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_3_superscript_topright.svg",
+                    import.meta.url
+                ).href,
+                text: "^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_4_superscript_bottomright.svg",
+                    import.meta.url
+                ).href,
+                text: "_{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_5_superscript_right.svg",
+                    import.meta.url
+                ).href,
+                text: "_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_6_superscript_left.svg",
+                    import.meta.url
+                ).href,
+                text: "_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_7_superscript_sideset.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sideset{_1^2}{_3^4}X_a^b "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_8_other_hat.svg",
+                    import.meta.url
+                ).href,
+                text: "\\hat{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_9_other_check.svg",
+                    import.meta.url
+                ).href,
+                text: "\\check{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_10_other_grave.svg",
+                    import.meta.url
+                ).href,
+                text: "\\grave{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_11_other_acute.svg",
+                    import.meta.url
+                ).href,
+                text: "\\acute{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_12_other_tilde.svg",
+                    import.meta.url
+                ).href,
+                text: "\\tilde{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_13_other_breve.svg",
+                    import.meta.url
+                ).href,
+                text: "\\breve{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_14_other_bar.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bar{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_15_other_vec.svg",
+                    import.meta.url
+                ).href,
+                text: "\\vec{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_16_other_not.svg",
+                    import.meta.url
+                ).href,
+                text: "\\not{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_17_other_degree.svg",
+                    import.meta.url
+                ).href,
+                text: "^{\\circ} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_18_other_widetilde.svg",
+                    import.meta.url
+                ).href,
+                text: "\\widetilde{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_19_other_widehat.svg",
+                    import.meta.url
+                ).href,
+                text: "\\widehat{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_20_other_overleftarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\overleftarrow{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_21_other_overrightarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\overrightarrow{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_22_other_overline_a.svg",
+                    import.meta.url
+                ).href,
+                text: "\\overline{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_23_other_underline.svg",
+                    import.meta.url
+                ).href,
+                text: "\\underline{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_24_other_overbrace.svg",
+                    import.meta.url
+                ).href,
+                text: "\\overbrace{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_25_other_underbrace.svg",
+                    import.meta.url
+                ).href,
+                text: "\\underbrace{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_26_other_overset.svg",
+                    import.meta.url
+                ).href,
+                text: "\\overset{}{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_27_other_underset.svg",
+                    import.meta.url
+                ).href,
+                text: "\\underset{}{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_28_other_stackrelfrown.svg",
+                    import.meta.url
+                ).href,
+                text: "\\stackrel\\frown{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_29_other_overline_b.svg",
+                    import.meta.url
+                ).href,
+                text: "\\overline{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_30_other_overleftrightarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\overleftrightarrow{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_31_other_oversetleftarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\overset{}{\\leftarrow}"
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_32_other_oversetrightarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\overset{}{\\rightarrow} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_33_other_xleftarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\xleftarrow[]{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sqrt/sqrt_34_other_xrightarrow.svg",
+                    import.meta.url
+                ).href,
+                text: "\\xrightarrow[]{} "
+            }
+        ]
     }
 ];
