@@ -2606,5 +2606,178 @@ export const customFormula: IPresetFormula[] = [
                 text: "\\oint_{}^{} "
             }
         ]
+    },
+
+    {
+        title: "大型运算",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_1_sum_sum.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sum "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_2_sum_suma.svg",
+                    import.meta.url
+                ).href,
+                text: "\\sum_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_3_sum_sumb.svg",
+                    import.meta.url
+                ).href,
+                text: "{\\textstyle \\sum_{}^{}} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_4_prod_prod.svg",
+                    import.meta.url
+                ).href,
+                text: "\\prod "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_5_prod_proda.svg",
+                    import.meta.url
+                ).href,
+                text: "\\prod_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_6_prod_prodb.svg",
+                    import.meta.url
+                ).href,
+                text: "{\\textstyle \\prod_{}^{}} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_7_prod_coprod.svg",
+                    import.meta.url
+                ).href,
+                text: "\\coprod "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_8_prod_coproda.svg",
+                    import.meta.url
+                ).href,
+                text: "\\coprod_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_9_prod_coprodb.svg",
+                    import.meta.url
+                ).href,
+                text: "{\\textstyle \\coprod_{}^{}} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_10_cup_cup.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bigcup "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_11_cup_cupa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bigcup_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_12_cup_cupb.svg",
+                    import.meta.url
+                ).href,
+                text: "{\\textstyle \\bigcup_{}^{}} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_13_cup_cap.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bigcap "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_14_cup_capa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bigcap_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_15_cup_capb.svg",
+                    import.meta.url
+                ).href,
+                text: "{\\textstyle \\bigcap_{}^{}} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_16_vee_vee.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bigvee "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_17_vee_veea.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bigvee_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_18_vee_veeb.svg",
+                    import.meta.url
+                ).href,
+                text: "{\\textstyle \\bigvee_{}^{}} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_19_vee_wedage.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bigwedge "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_20_vee_wedagea.svg",
+                    import.meta.url
+                ).href,
+                text: "\\bigwedge_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/sum/sum_21_vee_wedageb.svg",
+                    import.meta.url
+                ).href,
+                text: "{\\textstyle \\bigwedge_{}^{}} "
+            }
+        ]
     }
 ];
