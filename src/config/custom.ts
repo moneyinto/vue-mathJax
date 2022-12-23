@@ -2513,5 +2513,98 @@ export const customFormula: IPresetFormula[] = [
                 text: "\\operatorname{csch}^{-1} "
             }
         ]
+    },
+
+    {
+        title: "积分运算",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/custom/intergral/integral_1_int.svg",
+                    import.meta.url
+                ).href,
+                text: "\\int "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/intergral/integral_2_inta.svg",
+                    import.meta.url
+                ).href,
+                text: "\\int_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/intergral/integral_3_intb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\int\\limits_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/intergral/integral_4_iint.svg",
+                    import.meta.url
+                ).href,
+                text: "\\iint "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/intergral/integral_5_iinta.svg",
+                    import.meta.url
+                ).href,
+                text: "\\iint_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/intergral/integral_6_iintb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\iint\\limits_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/intergral/integral_7_iiint.svg",
+                    import.meta.url
+                ).href,
+                text: "\\iiint "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/intergral/integral_8_iiinta.svg",
+                    import.meta.url
+                ).href,
+                text: "\\iiint_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/intergral/integral_9_iiintb.svg",
+                    import.meta.url
+                ).href,
+                text: "\\iiint\\limits_{}^{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/intergral/integral_10_oint.svg",
+                    import.meta.url
+                ).href,
+                text: "\\oint "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/intergral/integral_11_ointa.svg",
+                    import.meta.url
+                ).href,
+                text: "\\oint_{}^{} "
+            }
+        ]
     }
 ];

@@ -46,10 +46,12 @@ const selectFormula = (formula: string) => {
         display: inline-block;
         margin-right: 10px;
         border-radius: 3px;
+        min-width: 36px;
         cursor: pointer;
         img {
             height: 20px;
             display: block;
+            margin: 0 auto;
         }
         &:hover {
             background-color: #d9d9d9;
