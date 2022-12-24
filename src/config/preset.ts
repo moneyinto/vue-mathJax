@@ -692,5 +692,153 @@ export const presetFormula: IPresetFormula[] = [
                 text: "\\sin \\left ( \\frac{\\pi}{2}+\\alpha \\right ) = \\cos \\alpha "
             }
         ]
+    },
+
+    {
+        title: "统计",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_1.png",
+                    import.meta.url
+                ).href,
+                text: "C_{r}^{n} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_2.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{n!}{r!(n-r)!} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_3.png",
+                    import.meta.url
+                ).href,
+                text: "\\sum_{i=1}^{n}{X_i} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_4.png",
+                    import.meta.url
+                ).href,
+                text: "\\sum_{i=1}^{n}{X_i^2} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_5.png",
+                    import.meta.url
+                ).href,
+                text: "X_1, \\cdots,X_n "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_6.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{x-\\mu}{\\sigma} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_7.png",
+                    import.meta.url
+                ).href,
+                text: "\\sum_{i=1}^{n}{(X_i - \\overline{X})^2} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_8.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                \\text{若}P \\left( AB \\right) =P \\left( A \\right) P \\left( B \\right) \\\\ 
+                \\text{则}P \\left( A \\left| B\\right. \\right) =P \\left({B}\\right) 
+              \\end{array}`
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_9.png",
+                    import.meta.url
+                ).href,
+                text: "P(E) ={n \\choose k}p^k (1-p)^{n-k} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_10.png",
+                    import.meta.url
+                ).href,
+                text: "P \\left( A \\right) = \\lim \\limits_{n \\to \\infty}f_{n}\\left ( A \\right ) "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_11.png",
+                    import.meta.url
+                ).href,
+                text: "P \\left( \\bigcup \\limits_{i=1}^{+ \\infty}A_{i}\\right) = \\prod \\limits_{i=1}^{+ \\infty}P{\\left( A_{i}\\right)} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_12.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                P \\left( \\emptyset \\right) =0 \\\\ 
+                P \\left( S \\right) =1 
+              \\end{array} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_13.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                \\forall A \\in S \\\\ 
+                P \\left( A \\right) \\ge 0 
+              \\end{array} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_14.png",
+                    import.meta.url
+                ).href,
+                text: "P \\left( \\bigcup \\limits_{i=1}^{n}A_{i}\\right) = \\prod \\limits_{i=1}^{n}P \\left( A_{i}\\right) "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_15.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                S= \\binom{N}{n},A_{k}=\\binom{M}{k}\\cdot \\binom{N-M}{n-k} \\\\ 
+                P\\left ( A_{k}\\right ) = \\frac{\\binom{M}{k}\\cdot \\binom{N-M}{n-k}}{\\binom{N}{n}} 
+              \\end{array} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/statistics/statistics_16.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                P_{n}=n! \\\\ 
+                A_{n}^{k}=\\frac{n!}{\\left( n-k \\left) !\\right. \\right.} 
+              \\end{array} `
+            }
+        ]
     }
 ];
