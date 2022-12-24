@@ -361,5 +361,122 @@ export const presetFormula: IPresetFormula[] = [
               \\end{array} `
             }
         ]
+    },
+
+    {
+        title: "积分",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_1.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{\\mathrm{d}}{\\mathrm{d}x}x^n=nx^{n-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_2.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{\\mathrm{d}}{\\mathrm{d}x}e^{ax}=a\\,e^{ax} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_3.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{\\mathrm{d}}{\\mathrm{d}x}\\ln(x)=\\frac{1}{x} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_4.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{\\mathrm{d}}{\\mathrm{d}x}\\sin x=\\cos x "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_5.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{\\mathrm{d}}{\\mathrm{d}x}\\cos x=-\\sin x "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_6.png",
+                    import.meta.url
+                ).href,
+                text: "\\int k\\mathrm{d}x = kx+C "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_7.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{\\mathrm{d}}{\\mathrm{d}x}\\tan x=\\sec^2 x "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_8.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{\\mathrm{d}}{\\mathrm{d}x}\\cot x=-\\csc^2 x "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_9.png",
+                    import.meta.url
+                ).href,
+                text: "\\int \\frac{1}{x}\\mathrm{d}x= \\ln \\left| x \\right| +C "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_10.png",
+                    import.meta.url
+                ).href,
+                text: "\\int \\frac{1}{\\sqrt{1-x^{2}}}\\mathrm{d}x= \\arcsin x +C "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_11.png",
+                    import.meta.url
+                ).href,
+                text: "\\int \\frac{1}{1+x^{2}}\\mathrm{d}x= \\arctan x +C"
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_12.png",
+                    import.meta.url
+                ).href,
+                text: "\\int u \\frac{\\mathrm{d}v}{\\mathrm{d}x}\\,\\mathrm{d}x=uv-\\int \\frac{\\mathrm{d}u}{\\mathrm{d}x}v\\,\\mathrm{d}x "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_13.png",
+                    import.meta.url
+                ).href,
+                text: "f(x) = \\int_{-\\infty}^\\infty  \\hat f(x)\\xi\\,e^{2 \\pi i \\xi x}  \\,\\mathrm{d}\\xi "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/calculous/calculous_14.png",
+                    import.meta.url
+                ).href,
+                text: "\\int x^{\\mu}\\mathrm{d}x=\\frac{x^{\\mu +1}}{\\mu +1}+C, \\left({\\mu \\neq -1}\\right) "
+            }
+        ]
     }
 ];
