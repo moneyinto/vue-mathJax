@@ -928,5 +928,224 @@ export const presetFormula: IPresetFormula[] = [
                 text: "(1+x)^{n} =1 + \\frac{nx}{1!} + \\frac{n(n-1)x^{2}}{2!} + \\cdots "
             }
         ]
+    },
+
+    {
+        title: "物理",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_1.png",
+                    import.meta.url
+                ).href,
+                text: "\\sum {{{ \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over F} }_i}} = \\frac{{d \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over v} }}{{dt}} = 0 "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_2.png",
+                    import.meta.url
+                ).href,
+                text: "\\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over F}  = m \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}}  \\over a}  = m \\frac{{{d^2} \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over r} }}{{d{t^2}}} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_3.png",
+                    import.meta.url
+                ).href,
+                text: "{{ \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over F} }_{12}} =  - {{ \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}}  \\over F} }_{21}} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_4.png",
+                    import.meta.url
+                ).href,
+                text: "{E_p} = -\\frac{{GMm}}{r} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_5.png",
+                    import.meta.url
+                ).href,
+                text: "\\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}}  \\over F}  = k \\frac{{Qq}}{{{r^2}}} \\hat{r} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_6.png",
+                    import.meta.url
+                ).href,
+                text: "\\oint_L { \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over E} } \\cdot { \\rm{d}} \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}}  \\over l}  = 0 "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_7.png",
+                    import.meta.url
+                ).href,
+                text: "d \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over B} = \\frac{{{ \\mu _0}}}{{4 \\pi }} \\frac{{Idl \\times \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over r} }}{{{r^3}}} =  \\frac{{{ \\mu _0}}}{{4 \\pi }} \\frac{{Idl \\sin \\theta }}{{{r^2}}} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_8.png",
+                    import.meta.url
+                ).href,
+                text: "d \\vec{F}= Id \\vec{l} \\times \\vec{B} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_9.png",
+                    import.meta.url
+                ).href,
+                text: "E = n{{ \\Delta \\Phi } \\over {\\Delta {t} }} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_10.png",
+                    import.meta.url
+                ).href,
+                text: "\\mathop \\Phi \\nolimits_e = \\oint { \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over E} \\cdot {d \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over S}}  = {1 \\over {{\\varepsilon _0}}}\\sum {q} } "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_11.png",
+                    import.meta.url
+                ).href,
+                text: "\\oint { \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over E} \\cdot {d\\mathord{\\buildrel{\\lower3pt\\hbox{$\\scriptscriptstyle\\rightharpoonup$}}\\over l}}  =  - {{d{\\varphi _B}} \\over {dt}}} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_12.png",
+                    import.meta.url
+                ).href,
+                text: "\\oint { \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over B} \\cdot {d \\mathord{ \\buildrel{ \\lower3pt \\hbox{$ \\scriptscriptstyle \\rightharpoonup$}} \\over l}}  = { \\mu _0}} I + { \\mu _0}{I_d} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_13.png",
+                    import.meta.url
+                ).href,
+                text: "Q = I ^ { 2 } R \\mathrm { t } "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_14.png",
+                    import.meta.url
+                ).href,
+                text: "F = G{{Mm} \\over {{r^2}}} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_15.png",
+                    import.meta.url
+                ).href,
+                text: "{E_k} = hv - {W_0} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_16.png",
+                    import.meta.url
+                ).href,
+                text: "\\lambda = \\frac{{ \\frac{{{c^2}}}{v}}}{{ \\frac{{m{c^2}}}{h}}} = \\frac{h}{{mv}} = \\frac{h}{p} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_17.png",
+                    import.meta.url
+                ).href,
+                text: "\\Delta {x} \\Delta {p} \\ge \\frac{h}{{4 \\pi }} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_18.png",
+                    import.meta.url
+                ).href,
+                text: "l = {l_0} \\sqrt {1 - {{( \\frac{v}{c})}^2}}  "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_19.png",
+                    import.meta.url
+                ).href,
+                text: "{y_0} = A \\cos ( \\omega {t} + { \\varphi _0}) "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_20.png",
+                    import.meta.url
+                ).href,
+                text: "y(t) = A \\cos ( \\frac{{2 \\pi {x}}}{ \\lambda } +  \\varphi ) "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_21.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{l}  
+                \\nabla \\cdot \\mathbf{E} =\\cfrac{\\rho}{\\varepsilon _0}  \\\\  
+                \\nabla \\cdot \\mathbf{B} = 0 \\\\  
+                \\nabla \\times \\mathbf{E} = -\\cfrac{\\partial \\mathbf{B}}{\\partial t }  \\\\  
+                \\nabla \\times \\mathbf{B} = \\mu _0\\mathbf{J} + \\mu _0\\varepsilon_0 \\cfrac{\\partial \\mathbf{E}}{\\partial t }   
+              \\end{array}`
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_22.png",
+                    import.meta.url
+                ).href,
+                text: `%此公式需要在设置中开启unicode扩展支持 
+                \\begin{array}{l}  
+                  {\\huge \\unicode{8751}}_\\mathbb{S}  \\mathbf{E} \\cdot\\mathrm{d}s= \\cfrac{Q}{\\varepsilon_0}  \\\\  
+                  {\\huge \\unicode{8751}}_\\mathbb{S}  \\mathbf{B} \\cdot\\mathrm{d}s= 0 \\\\  
+                  {\\huge \\oint}_{\\mathbb{L}}^{} \\mathbf{E} \\cdot \\mathrm{d}l=-\\cfrac{\\mathrm{d}\\Phi _{\\mathbf{B}}}{\\mathrm{d}t }  \\\\  
+                  {\\huge \\oint}_{\\mathbb{L}}^{} \\mathbf{B} \\cdot \\mathrm{d}l=\\mu_0I+ \\mu_0 \\varepsilon_0\\cfrac{\\mathrm{d}\\Phi _{\\mathbf{E}}}{\\mathrm{d}t }   
+                \\end{array}`
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_23.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{l}  
+                \\nabla \\cdot \\mathbf{D} =\\rho _f \\\\ 
+                \\nabla \\cdot \\mathbf{B} = 0 \\\\  
+                \\nabla \\times  \\mathbf{E} = -\\cfrac{\\partial \\mathbf{B}}{\\partial t }  \\\\  
+                \\nabla \\times  \\mathbf{H} = \\mathbf{J}_f +  \\cfrac{\\partial \\mathbf{D}}{\\partial t }   
+              \\end{array} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/physics/physics_24.png",
+                    import.meta.url
+                ).href,
+                text: `%此公式需要在设置中开启unicode扩展支持 
+                \\begin{array}{l}  
+                  {\\huge \\unicode{8751}}_\\mathbb{S}  \\mathbf{D} \\cdot\\mathrm{d}s= Q_f \\\\  
+                  {\\huge \\unicode{8751}}_\\mathbb{S}  \\mathbf{B} \\cdot\\mathrm{d}s= 0 \\\\  
+                  {\\huge \\oint}_{\\mathbb{L}}^{} \\mathbf{E} \\cdot \\mathrm{d}l=-\\cfrac{\\mathrm{d}\\Phi _{\\mathbf{B}}}{\\mathrm{d}t }  \\\\  
+                  {\\huge \\oint}_{\\mathbb{L}}^{} \\mathbf{H} \\cdot \\mathrm{d}l=I_f+\\cfrac{\\mathrm{d}\\Phi _{\\mathbf{D}}}{\\mathrm{d}t }   
+                \\end{array}`
+            }
+        ]
     }
 ];
