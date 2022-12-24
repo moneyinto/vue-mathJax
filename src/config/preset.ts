@@ -478,5 +478,110 @@ export const presetFormula: IPresetFormula[] = [
                 text: "\\int x^{\\mu}\\mathrm{d}x=\\frac{x^{\\mu +1}}{\\mu +1}+C, \\left({\\mu \\neq -1}\\right) "
             }
         ]
+    },
+
+    {
+        title: "矩阵",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/preset/array/array_1.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{pmatrix}  
+                1 & 0 \\\\  
+                0 & 1  
+              \\end{pmatrix} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/array/array_2.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{pmatrix}  
+                a_{11} & a_{12} & a_{13} \\\\  
+                a_{21} & a_{22} & a_{23} \\\\  
+                a_{31} & a_{32} & a_{33}  
+              \\end{pmatrix}`
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/array/array_3.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{pmatrix}  
+                a_{11} & \\cdots & a_{1n} \\\\  
+                \\vdots & \\ddots & \\vdots \\\\  
+                a_{m1} & \\cdots & a_{mn}  
+              \\end{pmatrix} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/array/array_4.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                A=A^{T}  \\\\ 
+                A=-A^{T} 
+              \\end{array} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/array/array_5.png",
+                    import.meta.url
+                ).href,
+                text: `O = \\begin{bmatrix}  
+                0 & 0 & \\cdots & 0 \\\\  
+                0 & 0 & \\cdots & 0 \\\\  
+                \\vdots & \\vdots & \\ddots & \\vdots \\\\  
+                0 & 0 & \\cdots & 0  
+              \\end{bmatrix} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/array/array_6.png",
+                    import.meta.url
+                ).href,
+                text: `A_{m\\times n}=  
+                \\begin{bmatrix}  
+                  a_{11}& a_{12}& \\cdots  & a_{1n} \\\\  
+                  a_{21}& a_{22}& \\cdots  & a_{2n} \\\\  
+                  \\vdots & \\vdots & \\ddots & \\vdots \\\\  
+                  a_{m1}& a_{m2}& \\cdots  & a_{mn}  
+                \\end{bmatrix}  
+                =\\left [ a_{ij}\\right ] `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/array/array_7.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                A={\\left[ a_{ij}\\right]_{m \\times n}},B={\\left[ b_{ij}\\right]_{n \\times s}} \\\\  
+                c_{ij}= \\sum \\limits_{k=1}^{{n}}a_{ik}b_{kj} \\\\  
+                C=AB=\\left[ c_{ij}\\right]_{m \\times s}  
+                = \\left[ \\sum \\limits_{k=1}^{n}a_{ik}b_{kj}\\right]_{m \\times s} 
+              \\end{array}`
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/array/array_8.png",
+                    import.meta.url
+                ).href,
+                text: `\\mathbf{V}_1 \\times \\mathbf{V}_2 =  
+                \\begin{vmatrix}  
+                  \\mathbf{i}& \\mathbf{j}& \\mathbf{k} \\\\  
+                  \\frac{\\partial X}{\\partial u}& \\frac{\\partial Y}{\\partial u}& 0 \\\\  
+                  \\frac{\\partial X}{\\partial v}& \\frac{\\partial Y}{\\partial v}& 0 \\\\  
+                \\end{vmatrix}`
+            }
+        ]
     }
 ];
