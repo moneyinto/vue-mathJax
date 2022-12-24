@@ -2888,5 +2888,98 @@ export const customFormula: IPresetFormula[] = [
                 text: "\\left \\langle \\psi  | \\psi  \\right \\rangle "
             }
         ]
+    },
+
+    {
+        title: "数据矩阵",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/custom/matrix/matrix_1_matrix.svg",
+                    import.meta.url
+                ).href,
+                text: `\\begin{matrix}
+                . & . & . \\\\
+                . & . & .
+              \\end{matrix} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/matrix/matrix_2_bmatrix.svg",
+                    import.meta.url
+                ).href,
+                text: `\\begin{bmatrix}
+                . & . & .  \\\\
+                . & . & .
+              \\end{bmatrix} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/matrix/matrix_3_pmatrix.svg",
+                    import.meta.url
+                ).href,
+                text: `\\begin{pmatrix}
+                . & . & .  \\\\
+                . & . & .
+              \\end{pmatrix} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/matrix/matrix_4_vmatrix.svg",
+                    import.meta.url
+                ).href,
+                text: `\\begin{vmatrix}
+                . & . & .  \\\\
+                . & . & .
+              \\end{vmatrix} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/matrix/matrix_5_bigVmatrix.svg",
+                    import.meta.url
+                ).href,
+                text: `\\begin{Vmatrix}
+                . & . & .  \\\\
+                . & . & .
+              \\end{Vmatrix}`
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/matrix/matrix_6_bigBmatrix.svg",
+                    import.meta.url
+                ).href,
+                text: `\\begin{Bmatrix}
+                . & . & .  \\\\
+                . & . & .
+              \\end{Bmatrix}`
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/matrix/matrix_7_leftmatrix.svg",
+                    import.meta.url
+                ).href,
+                text: `\\left\\{\\begin{matrix}
+                . & . & . \\\\
+                . & . & .
+              \\end{matrix}\right. `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/matrix/matrix_8_rightmatrix.svg",
+                    import.meta.url
+                ).href,
+                text: `\\left.\\begin{matrix}
+                . & . & . \\\\
+                . & . & .
+              \\end{matrix}\\right\\} `
+            }
+        ]
     }
 ];
