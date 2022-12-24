@@ -236,5 +236,130 @@ export const presetFormula: IPresetFormula[] = [
               \\end{array} `
             }
         ]
+    },
+
+    {
+        title: "不等式",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_1.png",
+                    import.meta.url
+                ).href,
+                text: "a > b,b > c \\Rightarrow a > c "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_2.png",
+                    import.meta.url
+                ).href,
+                text: "a > b,c > d \\Rightarrow a+c > b+d "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_3.png",
+                    import.meta.url
+                ).href,
+                text: "a > b > 0,c > d > 0 \\Rightarrow ac > bd "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_4.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                a \\gt b,c \\gt 0 \\Rightarrow ac \\gt bc \\\\ 
+                a \\gt b,c \\lt 0 \\Rightarrow ac \\lt bc 
+              \\end{array} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_5.png",
+                    import.meta.url
+                ).href,
+                text: "\\left | a-b \\right | \\geqslant \\left | a \\right | -\\left | b \\right | "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_6.png",
+                    import.meta.url
+                ).href,
+                text: "-\\left | a \\right |\\leq a\\leqslant \\left | a \\right | "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_7.png",
+                    import.meta.url
+                ).href,
+                text: "\\left | a \\right |\\leqslant b \\Rightarrow -b \\leqslant a \\leqslant \\left | b \\right | "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_8.png",
+                    import.meta.url
+                ).href,
+                text: "\\left | a+b \\right | \\leqslant \\left | a \\right | + \\left | b \\right | "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_9.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                a \\gt b \\gt 0,n \\in N^{\\ast},n \\gt 1 \\\\ 
+                \\Rightarrow a^{n}\\gt b^{n}, \\sqrt[n]{a}\\gt \\sqrt[n]{b} 
+              \\end{array} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_10.png",
+                    import.meta.url
+                ).href,
+                text: "\\left( \\sum_{k=1}^n a_k b_k \\right)^{\\!\\!2}\\leq \\left( \\sum_{k=1}^n a_k^2 \\right) \\left( \\sum_{k=1}^n b_k^2 \\right) "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_11.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                a,b \\in R^{+} \\\\  
+                \\Rightarrow \\frac{a+b}{{2}}\\ge \\sqrt{ab} \\\\  
+                \\left( \\text{当且仅当}a=b\\text{时取“}=\\text{”号}\\right) 
+              \\end{array} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_12.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                a,b \\in R \\\\  
+                \\Rightarrow a^{2}+b^{2}\\gt 2ab \\\\  
+                \\left( \\text{当且仅当}a=b\\text{时取“}=\\text{”号}\\right) 
+              \\end{array} `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/inequality/inequality_13.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                H_{n}=\\frac{n}{\\sum \\limits_{i=1}^{n}\\frac{1}{x_{i}}}= \\frac{n}{\\frac{1}{x_{1}}+ \\frac{1}{x_{2}}+ \\cdots + \\frac{1}{x_{n}}} \\\\ G_{n}=\\sqrt[n]{\\prod \\limits_{i=1}^{n}x_{i}}= \\sqrt[n]{x_{1}x_{2}\\cdots x_{n}} \\\\ A_{n}=\\frac{1}{n}\\sum \\limits_{i=1}^{n}x_{i}=\\frac{x_{1}+ x_{2}+ \\cdots + x_{n}}{n} \\\\ Q_{n}=\\sqrt{\\sum \\limits_{i=1}^{n}x_{i}^{2}}= \\sqrt{\\frac{x_{1}^{2}+ x_{2}^{2}+ \\cdots + x_{n}^{2}}{n}} \\\\ H_{n}\\leq G_{n}\\leq A_{n}\\leq Q_{n} 
+              \\end{array} `
+            }
+        ]
     }
 ];
