@@ -7,8 +7,8 @@ export const initMathJax = (config = {}, callback?: () => void) => {
     // 没有找到好的配置解决办法，这里直接在localstorage里存入配置值
     localStorage.setItem("MathJax-Menu-Settings", '{"renderer":"svg"}');
     const defaultConfig = {
-        loader: { load: ["[tex]/unicode"] },
-        tex: { packages: { "[+]": ["unicode"] } },
+        loader: { load: ["[tex]/unicode", "[tex]/mhchem"] },
+        tex: { packages: { "[+]": ["unicode", "mhchem"] } },
         options: {
             enableMenu: false,
             menuOptions: {

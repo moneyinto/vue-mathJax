@@ -1111,8 +1111,7 @@ export const presetFormula: IPresetFormula[] = [
                     "@/assets/images/preset/physics/physics_22.png",
                     import.meta.url
                 ).href,
-                text: `%此公式需要在设置中开启unicode扩展支持 
-                \\begin{array}{l}  
+                text: `\\begin{array}{l}  
                   {\\huge \\unicode{8751}}_\\mathbb{S}  \\mathbf{E} \\cdot\\mathrm{d}s= \\cfrac{Q}{\\varepsilon_0}  \\\\  
                   {\\huge \\unicode{8751}}_\\mathbb{S}  \\mathbf{B} \\cdot\\mathrm{d}s= 0 \\\\  
                   {\\huge \\oint}_{\\mathbb{L}}^{} \\mathbf{E} \\cdot \\mathrm{d}l=-\\cfrac{\\mathrm{d}\\Phi _{\\mathbf{B}}}{\\mathrm{d}t }  \\\\  
@@ -1138,13 +1137,49 @@ export const presetFormula: IPresetFormula[] = [
                     "@/assets/images/preset/physics/physics_24.png",
                     import.meta.url
                 ).href,
-                text: `%此公式需要在设置中开启unicode扩展支持 
-                \\begin{array}{l}  
+                text: `\\begin{array}{l}  
                   {\\huge \\unicode{8751}}_\\mathbb{S}  \\mathbf{D} \\cdot\\mathrm{d}s= Q_f \\\\  
                   {\\huge \\unicode{8751}}_\\mathbb{S}  \\mathbf{B} \\cdot\\mathrm{d}s= 0 \\\\  
                   {\\huge \\oint}_{\\mathbb{L}}^{} \\mathbf{E} \\cdot \\mathrm{d}l=-\\cfrac{\\mathrm{d}\\Phi _{\\mathbf{B}}}{\\mathrm{d}t }  \\\\  
                   {\\huge \\oint}_{\\mathbb{L}}^{} \\mathbf{H} \\cdot \\mathrm{d}l=I_f+\\cfrac{\\mathrm{d}\\Phi _{\\mathbf{D}}}{\\mathrm{d}t }   
                 \\end{array}`
+            }
+        ]
+    },
+
+    {
+        title: "化学",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/preset/chemistry/chemistry_1.png",
+                    import.meta.url
+                ).href,
+                text: "\\ce{SO4^2- + Ba^2+ -> BaSO4 v} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/chemistry/chemistry_2.png",
+                    import.meta.url
+                ).href,
+                text: "\\ce{A v B (v) -> B ^ B (^)} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/chemistry/chemistry_3.png",
+                    import.meta.url
+                ).href,
+                text: "\\ce{Hg^2+ ->[I-]  $\\underset{\\mathrm{red}}{\\ce{HgI2}}$  ->[I-]  $\\underset{\\mathrm{red}}{\\ce{[Hg^{II}I4]^2-}}$} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/chemistry/chemistry_4.png",
+                    import.meta.url
+                ).href,
+                text: "\\ce{Zn^2+  <=>[+ 2OH-][+ 2H+]  $\\underset{\\text{amphoteres Hydroxid}}{\\ce{Zn(OH)2 v}}$  <=>[+ 2OH-][+ 2H+]  $\\underset{\\text{Hydroxozikat}}{\\ce{[Zn(OH)4]^2-}}$} "
             }
         ]
     }
