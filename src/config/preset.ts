@@ -583,5 +583,114 @@ export const presetFormula: IPresetFormula[] = [
                 \\end{vmatrix}`
             }
         ]
+    },
+
+    {
+        title: "三角",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_1.png",
+                    import.meta.url
+                ).href,
+                text: "e^{i \\theta} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_2.png",
+                    import.meta.url
+                ).href,
+                text: "\\left(\\frac{\\pi}{2}-\\theta \\right ) "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_3.png",
+                    import.meta.url
+                ).href,
+                text: "\\text{sin}^{2}\\frac{\\alpha}{2}=\\frac{1- \\text{cos}\\alpha}{2} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_4.png",
+                    import.meta.url
+                ).href,
+                text: "\\text{cos}^{2}\\frac{\\alpha}{2}=\\frac{1+ \\text{cos}\\alpha}{2} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_5.png",
+                    import.meta.url
+                ).href,
+                text: "\\text{tan}\\frac{\\alpha}{2}=\\frac{\\text{sin}\\alpha}{1+ \\text{cos}\\alpha} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_6.png",
+                    import.meta.url
+                ).href,
+                text: "\\sin \\alpha + \\sin \\beta =2 \\sin \\frac{\\alpha + \\beta}{2}\\cos \\frac{\\alpha - \\beta}{2} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_7.png",
+                    import.meta.url
+                ).href,
+                text: "\\sin \\alpha - \\sin \\beta =2 \\cos \\frac{\\alpha + \\beta}{2}\\sin \\frac{\\alpha - \\beta}{2} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_8.png",
+                    import.meta.url
+                ).href,
+                text: "\\cos \\alpha + \\cos \\beta =2 \\cos \\frac{\\alpha + \\beta}{2}\\cos \\frac{\\alpha - \\beta}{2} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_9.png",
+                    import.meta.url
+                ).href,
+                text: "\\cos \\alpha - \\cos \\beta =-2\\sin \\frac{\\alpha + \\beta}{2}\\sin \\frac{\\alpha - \\beta}{2} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_10.png",
+                    import.meta.url
+                ).href,
+                text: "a^{2}=b^{2}+c^{2}-2bc\\cos A "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_11.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{\\sin A}{a}=\\frac{\\sin B}{b}=\\frac{\\sin C}{c}=\\frac{1}{2R} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_12.png",
+                    import.meta.url
+                ).href,
+                text: "\\sin \\left ( \\frac{\\pi}{2}-\\alpha \\right ) = \\cos \\alpha "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/trigonometry/trigonometry_13.png",
+                    import.meta.url
+                ).href,
+                text: "\\sin \\left ( \\frac{\\pi}{2}+\\alpha \\right ) = \\cos \\alpha "
+            }
+        ]
     }
 ];
