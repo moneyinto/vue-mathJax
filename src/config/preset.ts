@@ -131,5 +131,110 @@ export const presetFormula: IPresetFormula[] = [
                 \\end{array}`
             }
         ]
+    },
+
+    {
+        title: "几何",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/preset/geometry/geometry_1.png",
+                    import.meta.url
+                ).href,
+                text: "\\Delta A B C "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/geometry/geometry_2.png",
+                    import.meta.url
+                ).href,
+                text: "a \\parallel c,b \\parallel c \\Rightarrow a \\parallel b "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/geometry/geometry_3.png",
+                    import.meta.url
+                ).href,
+                text: "l \\perp \\beta ,l \\subset \\alpha \\Rightarrow \\alpha \\perp \\beta "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/geometry/geometry_4.png",
+                    import.meta.url
+                ).href,
+                text: `\\left.\\begin{matrix} 
+                a \\perp \\alpha \\\\ 
+                b \\perp \\alpha 
+              \\end{matrix}\\right\\}\\Rightarrow a \\parallel b`
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/geometry/geometry_5.png",
+                    import.meta.url
+                ).href,
+                text: "P \\in \\alpha ,P \\in \\beta , \\alpha \\cap \\beta =l \\Rightarrow P \\in l"
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/geometry/geometry_6.png",
+                    import.meta.url
+                ).href,
+                text: "\\alpha \\perp \\beta , \\alpha \\cap \\beta =l,a \\subset \\alpha ,a \\perp l \\Rightarrow a \\perp \\beta "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/geometry/geometry_7.png",
+                    import.meta.url
+                ).href,
+                text: `\\left.\\begin{matrix} 
+                a \\subset \\beta ,b \\subset \\beta ,a \\cap b=P \\\\  
+                a \\parallel \\partial ,b \\parallel \\partial  
+              \\end{matrix}\\right\\}\\Rightarrow \\beta \\parallel \\alpha `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/geometry/geometry_8.png",
+                    import.meta.url
+                ).href,
+                text: "\\alpha \\parallel \\beta , \\gamma \\cap \\alpha =a, \\gamma \\cap \\beta =b \\Rightarrow a \\parallel b "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/geometry/geometry_9.png",
+                    import.meta.url
+                ).href,
+                text: "A \\in l,B \\in l,A \\in \\alpha ,B \\in \\alpha \\Rightarrow l \\subset \\alpha "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/geometry/geometry_10.png",
+                    import.meta.url
+                ).href,
+                text: `\\left.\\begin{matrix} 
+                m \\subset \\alpha ,n \\subset \\alpha ,m \\cap n=P \\\\  
+                a \\perp m,a \\perp n 
+              \\end{matrix}\\right\\}\\Rightarrow a \\perp \\alpha `
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/geometry/geometry_11.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                \\text{直角三角形中,直角边长a,b,斜边边长c} \\\\ 
+                a^{2}+b^{2}=c^{2} 
+              \\end{array} `
+            }
+        ]
     }
 ];
