@@ -2779,5 +2779,114 @@ export const customFormula: IPresetFormula[] = [
                 text: "{\\textstyle \\bigwedge_{}^{}} "
             }
         ]
+    },
+
+    {
+        title: "括号取整",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_1_bracket_1.svg",
+                    import.meta.url
+                ).href,
+                text: "\\left (  \\right ) "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_3_bracket_3.svg",
+                    import.meta.url
+                ).href,
+                text: "\\left [  \\right ] "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_4_bracket_4.svg",
+                    import.meta.url
+                ).href,
+                text: "\\left \\langle  \\right \\rangle "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_5_bracket_5.svg",
+                    import.meta.url
+                ).href,
+                text: "\\left \\{  \\right \\} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_7_bracket_7.svg",
+                    import.meta.url
+                ).href,
+                text: "\\left |  \\right | "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_2_bracket_2.svg",
+                    import.meta.url
+                ).href,
+                text: "\\left \\|  \\right \\| "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_6_bracket_6.svg",
+                    import.meta.url
+                ).href,
+                text: "\\left \\lfloor  \\right \\rfloor "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_8_bracket_8.svg",
+                    import.meta.url
+                ).href,
+                text: "\\left \\lceil  \\right \\rceil "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_9_common_binom.svg",
+                    import.meta.url
+                ).href,
+                text: "\\binom{}{} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_10_common_interval.svg",
+                    import.meta.url
+                ).href,
+                text: "\\left [ 0,1 \\right ) "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_11_common_bra.svg",
+                    import.meta.url
+                ).href,
+                text: "\\left \\langle \\psi \\right | "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_12_common_ket.svg",
+                    import.meta.url
+                ).href,
+                text: "\\left | \\psi  \\right \\rangle "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/custom/bracket/bracket_13_common_product.svg",
+                    import.meta.url
+                ).href,
+                text: "\\left \\langle \\psi  | \\psi  \\right \\rangle "
+            }
+        ]
     }
 ];
