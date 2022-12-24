@@ -840,5 +840,93 @@ export const presetFormula: IPresetFormula[] = [
               \\end{array} `
             }
         ]
+    },
+
+    {
+        title: "数列",
+        list: [
+            {
+                url: new URL(
+                    "@/assets/images/preset/sequence/sequence_1.png",
+                    import.meta.url
+                ).href,
+                text: "a_{n}=a_{1}q^{n-1} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/sequence/sequence_2.png",
+                    import.meta.url
+                ).href,
+                text: "a_{n}=a_{1}+ \\left( n-1 \\left) d\\right. \\right. "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/sequence/sequence_3.png",
+                    import.meta.url
+                ).href,
+                text: "S_{n}=na_{1}+\\frac{n \\left( n-1 \\right)}{{2}}d "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/sequence/sequence_4.png",
+                    import.meta.url
+                ).href,
+                text: "S_{n}=\\frac{n \\left( a_{1}+a_{n}\\right)}{2} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/sequence/sequence_5.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{1}{n \\left( n+k \\right)}= \\frac{1}{k}\\left( \\frac{1}{n}-\\frac{1}{n+k}\\right) "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/sequence/sequence_6.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{1}{n^{2}-1}= \\frac{1}{2}\\left( \\frac{1}{n-1}-\\frac{1}{n+1}\\right) "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/sequence/sequence_7.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{1}{4n^{2}-1}=\\frac{1}{2}\\left( \\frac{1}{2n-1}-\\frac{1}{2n+1}\\right) "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/sequence/sequence_8.png",
+                    import.meta.url
+                ).href,
+                text: "\\frac{n+1}{n \\left( n-1 \\left) \\cdot 2^{n}\\right. \\right.}= \\frac{1}{\\left( n-1 \\left) \\cdot 2^{n-1}\\right. \\right.}-\\frac{1}{n \\cdot 2^{n}} "
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/sequence/sequence_9.png",
+                    import.meta.url
+                ).href,
+                text: `\\begin{array}{c} 
+                \\text{若}\\left \\{a_{n}\\right \\}、\\left \\{b_{n}\\right \\}\\text{为等差数列}, \\\\ 
+                \\text{则}\\left \\{a_{n}+ b_{n}\\right \\}\\text{为等差数列} 
+              \\end{array}`
+            },
+
+            {
+                url: new URL(
+                    "@/assets/images/preset/sequence/sequence_10.png",
+                    import.meta.url
+                ).href,
+                text: "(1+x)^{n} =1 + \\frac{nx}{1!} + \\frac{n(n-1)x^{2}}{2!} + \\cdots "
+            }
+        ]
     }
 ];
