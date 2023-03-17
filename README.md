@@ -1,5 +1,24 @@
 # mv-latex
 
+<p align="center">
+    <img src="./public/latex.png" />
+</p>
+
+<p align="center">
+    <a href="https://github.com/moneyinto/vue-mathJax/stargazers" target="_black">
+        <img src="https://img.shields.io/github/stars/moneyinto/vue-mathJax?logo=github" alt="stars" />
+    </a>
+    <a href="https://www.github.com/moneyinto/vue-mathJax/network/members" target="_black">
+        <img src="https://img.shields.io/github/forks/moneyinto/vue-mathJax?logo=github" alt="forks" />
+    </a>
+    <a href="https://www.typescriptlang.org" target="_black">
+        <img src="https://img.shields.io/badge/language-TypeScript-blue.svg" alt="language">
+    </a>
+    <a href="https://github.com/moneyinto/vue-mathJax/issues" target="_black">
+        <img src="https://img.shields.io/github/issues-closed/moneyinto/vue-mathJax.svg" alt="issue">
+    </a>
+</p>
+
 #### 参考[latexlive](https://www.latexlive.com/)的`快捷工具`和`公式模版`，使用vue3+typescript完善一版公式编辑
 
 ### 插件分为三部分
