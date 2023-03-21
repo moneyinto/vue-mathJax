@@ -5,7 +5,7 @@
                 <textarea v-model="latex" ref="textareaRef"></textarea>
             </div>
             <div class="latex-preview">
-                <MathJax :latex="previewLatex" />
+                <MathJax :latex="latex" :previewLatex="previewLatex" />
             </div>
         </div>
         <div class="latex-editor-panel">
