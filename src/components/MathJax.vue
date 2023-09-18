@@ -48,7 +48,7 @@ const renderMathJax = () => {
 
 renderMathJax();
 
-watch(() => props.latex, () => {
+watch(() => props.previewLatex, () => {
     renderMathJax();
 });
 </script>
